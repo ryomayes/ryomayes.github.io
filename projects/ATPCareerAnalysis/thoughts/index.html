@@ -1,0 +1,11 @@
+---
+layout: post
+title: ATP Career Analysis - Thoughts
+---
+<p>The goal of this application was to force me to get comfortable with D3.js and server-side technologies. While I’m still a ways away from mastering both technologies, I definitely learned a lot while working on this project.</p>
+
+<p>The inspiration behind this project was FiveThirtyEight’s <a href="http://projects.fivethirtyeight.com/carmelo/">CARMELO Player Projections</a>, which matches a given NBA player with other players based on certain attributes and then attempts to calculate the future value (Wins Above Replacement) of the player, based on the average value of the most similar players.</p>
+
+<p>Given a large but somewhat less detailed dataset, I attempted to do the same, but with ATP player rankings instead of Wins Above Replacement. I used a Python script to strip down the data and match each player’s rankings over the years to other players throughout history. While I would almost certainly get better comparisons by coming up with a similarity function that includes each player’s tennis statistics (aces, return points won, injuries, etc), I didn’t have the time or the resources to create such an analysis. Also, I’m not entirely convinced that players with similar attributes are likely to have similar ranking trajectories (examples being Roger Federer - Grigor Dimitrov, and Kei Nishikori - Roberto Bautista Agut). Still, it’s something that I’m planning on revisiting when I have more time. The major gripe that people will have with this project is the wacky future projections that it gives (Novak Djokovic’s trajectory is almost vertical!), and that is partly due to my flawed projection algorithm and partly due to the fact that some players are doing things that are unprecedented in tennis history.</p>
+
+<p>If you’d like to suggest a method to create better player comparisons and projections, I’d love to hear your input!</p>

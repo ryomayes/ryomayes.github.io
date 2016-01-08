@@ -1,0 +1,43 @@
+body {
+	background-color: #788996;
+	color: #3B5263;
+}
+
+.blurb-wrapper {
+	font-family: "Alegreya Sans", sans-serif;
+	position: absolute;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	top: 0;
+	left: 10%;
+	width: 50%;
+	overflow-y: scroll;
+	border: 2px solid #3B5263;
+	background-color: #FFFEFF;
+}
+
+.blurb {
+	margin: 2em;
+}
+
+.blurb p {
+	font-size: 1.15em;
+}
+.blurb h1 {
+	font-family: "Source Sans Pro", serif;
+	font-weight: 300;
+}
+.blurb img {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border-radius: 3px;
+	width: 98%;
+	display: block;
+}
+a {
+	color: steelblue;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}

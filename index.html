@@ -1,10 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Ryo Mayes</title>
-	</head>
-	<body>
-		<h1 style="text-align: center">Coming soon...</h1>
-	</body>
-</html>
+---
+layout: default
+---
+
+<section id="about" class="homediv">
+  <div id="about-container">
+    <h1 id="me"><a href="/about">{{ site.title }}</a></h1>
+    <p>{{ site.aboutme }}</p>
+    <p style="text-align: left">
+      <a class="me-links" href="mailto:ryomayes@berkeley.edu">
+        <i class="fa fa-envelope-square"></i>
+      </a>
+      <a class="me-links" href="https://www.linkedin.com/in/ryo-mayes-a1583971">
+        <i class="fa fa-linkedin-square"></i>
+      </a>
+      <a class="me-links" href="https://github.com/ryomayes">
+        <i class="fa fa-github-alt"></i>
+      </a>
+      <a class="me-links" href="/src/resources/Resume.pdf"><i class="fa fa-file-text-o"></i></a>
+      <a class="me-links" href="/src/resources/resume.txt"><i class="fa fa-file-pdf-o"></i></a>
+    </p>
+    <p>Want to hear more? You're my new favorite person. Have a look over <a href="about">here.</a> You can check out the stuff I've been working on over there. &rarr;</p>
+  </div>
+</section>
+<section id="stuff" class="homediv">
+  <div class="postlist">
+  {% for post in site.posts limit:3 %}
+    <div class="item-wrapper">
+      <p class="post-title" style="font-weight: bold">{{post.title}}</p>
+      <div class="item">
+        <a href="{{post.link}}">
+          <img src="{{post.image}}">
+        </a>
+      </div>
+      <p class="post-description">{{post.date | date: "%B %Y" }}  &sdot; <a href="{{post.thoughts}}">Thoughts</a> </p>      
+    </div>
+  {% endfor %}
+    <div id="hiddenitem" class="item">
+        <a id="viewall" href="/projects/">View all</a>
+    </div>
+  </div>
+
+</section>
+

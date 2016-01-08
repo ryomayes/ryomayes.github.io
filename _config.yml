@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Ryo Mayes
+email: ryomayes@berkeley.edu
+aboutme: |
+    Hi there. I'm a student at UC Berkeley studying cognitive science.
+    I'm interested in interactive journalism, user experience methodologies, cognition
+    and educational technology.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ryomayes.com" # the base hostname & protocol for your site
+twitter_username: ryomayes
+github_username:  ryomayes
+interest_link: http://thethoughtburger.com/
+# Build settings
+markdown: kramdown

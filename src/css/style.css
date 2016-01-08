@@ -1,0 +1,158 @@
+body {
+	background-color: #788996;
+}
+.canvas {
+	color: #3B5263;
+	background-color: white;
+	position: absolute;
+	border: 2px solid #3B5263;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 1em;
+	display: -webkit-flex;
+   	display: flex;
+   	-webkit-flex-direction: row;
+   	flex-direction: row;
+   	-webkit-align-items: center;
+   	align-items: center;
+   	font-family: "Alegreya Sans", sans-serif;
+}
+p {
+	font-size: 1.15em;
+}
+a {
+	text-decoration: none;
+	color: steelblue;
+}
+a:hover{
+	text-decoration: underline;
+}
+#me {
+	font-size: 2em;
+}
+#me a {
+	color: #3B5263;
+}
+#me a:hover {
+	color: steelblue;
+	text-decoration: none;
+}
+.me-links{
+	font-size: 1em;
+	color: #3B5263;
+	text-decoration: none;
+	margin-right: 1em;
+}
+.me-links:hover{
+	color: steelblue;
+	text-decoration: none;
+
+}
+#viewall {
+	float: right;
+}
+.homediv {
+	height: 100%;
+}
+
+#about {
+	width: 45%;
+}
+#about-container {
+	position: relative;
+	margin: 8em 5em 5em 6em;
+}
+#about h1 {
+	font-family: "Source Sans Pro", serif;
+	margin-top: 0;
+}
+#stuff {
+	width: 55%;
+}
+.postlist {
+	height: 90%;
+	margin: 1em;
+	margin-top: 3em !important;
+	display: -webkit-flex;
+   	display: flex;
+   	-webkit-flex-direction: column;
+   	flex-direction: column;
+   	-webkit-align-items: center;
+   	align-items: center;
+   	-webkit-justify-content: space-between;
+   	justify-content: space-between;
+}
+.post-wrapper {
+	position: absolute;
+	height: 95%;
+	margin-top: 2em;
+	margin-left: 4em;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: left;
+   align-items: left;
+   -webkit-justify-content: left;
+   justify-content: left;
+   -webkit-flex-flow: column wrap;
+   flex-flow: column wrap;
+   -webkit-align-content: left;
+   align-content: left;
+}
+.item-wrapper {
+	width: 30em;
+	margin-bottom: 1.1em;
+
+}
+.all-items {
+	width: 15em !important;
+	margin-right: 5em;
+	margin-bottom: 2em;
+}
+
+.item {
+	width: 100%;
+	height: 5em;
+	border: 2px solid teal;
+	overflow: hidden;
+}
+img {
+	opacity: 0.8;
+	width: 100%;
+	border: none;
+}
+.post-title, .post-description{
+	text-align: right;
+	margin-bottom: 0.30em;
+	margin-top: 0.30em;
+	float: right;
+}
+.post-title {
+	font-family: "Source Sans Pro", serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+.post-description {
+	font-size: 0.95em;
+}
+.item:hover{
+	box-shadow: 2px 2px 0 0 teal;
+}
+
+#hiddenitem {
+	width: 30em !important;
+	box-shadow: none;
+	border: none;
+	width: 60%;
+}
+
+
+
+
+
+
+
+
+
+

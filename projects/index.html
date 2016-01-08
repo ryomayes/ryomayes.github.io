@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="post-wrapper">
+	
+  	{% for post in site.posts %}
+    <div class="item-wrapper all-items">
+      <p class="post-title">{{post.title}}</p>
+      <div class="item">
+        <a href="{{post.link}}">
+          <img src="{{post.image}}">
+        </a>
+      </div>
+      <p class="post-description">{{post.date | date: "%B %Y" }}  &sdot; <a href="{{post.thoughts}}">Thoughts</a></p>
+    </div>
+  	{% endfor %}
+
+</div>
