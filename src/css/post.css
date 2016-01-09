@@ -4,6 +4,7 @@ body {
 }
 
 .blurb-wrapper {
+	display: block;
 	font-family: "Alegreya Sans", sans-serif;
 	position: absolute;
 	margin-top: 1em;
@@ -18,6 +19,7 @@ body {
 
 .blurb {
 	margin: 2em;
+	display: block;
 }
 
 .blurb p {
@@ -40,6 +42,12 @@ a {
 }
 a:hover {
 	text-decoration: underline;
+}
+
+#backhome {
+	font-size: 1em;
+	text-align: right !important;
+	float: right;
 }
 @media screen and (max-width: 800px) {
 	.blurb-wrapper {
