@@ -1,5 +1,3 @@
-
-
 body {
 	position: absolute;
 	top: 0;
@@ -17,7 +15,7 @@ body {
 
 .container {
 	height: 100%;
-	display: block;
+	/*display: block;*/
 	width: 50%;
 	/*overflow-y: scroll;*/
 }
@@ -57,17 +55,7 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-#obfuscate {
-/*			position: fixed;
-	height: 2em;
-	background-color: white;
-	box-shadow: 1;
-	opacity: 0.9;
-	left: 52%;
-	bottom: 3.5em;
-	right: 1.5em;
-	z-index: 5;*/
-}
+
 .axis {
 	/*font-family: Helvetica, sans-serif;*/
 	font-size: 12px;
@@ -123,4 +111,10 @@ a:hover {
 #update:hover{
 	color: black;
 	border: 1px solid black;
+}
+
+@media screen and (max-width: 800px) {
+	#chart-wrapper {
+		border-right: 2px solid yellow;
+	}
 }

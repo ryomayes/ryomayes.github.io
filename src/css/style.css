@@ -53,16 +53,16 @@ a:hover{
 #viewall {
 	float: right;
 }
-.homediv {
+/*.homediv {
 	height: 100%;
-}
+}*/
 
 #about {
 	width: 45%;
 }
 #about-container {
 	position: relative;
-	margin: 8em 5em 5em 6em;
+	margin: 10% 5em 5em 6em;
 }
 #about h1 {
 	font-family: "Source Sans Pro", serif;
@@ -85,7 +85,7 @@ a:hover{
    	justify-content: space-between;
 }
 .post-wrapper {
-	position: absolute;
+	position: relative;
 	height: 95%;
 	margin-top: 2em;
 	margin-left: 4em;
@@ -103,7 +103,6 @@ a:hover{
 .item-wrapper {
 	width: 30em;
 	margin-bottom: 1.1em;
-
 }
 .all-items {
 	width: 15em !important;
@@ -146,8 +145,57 @@ img {
 	border: none;
 	width: 60%;
 }
-
-
+#larr {
+	display: none;
+}
+@media screen and (max-width: 800px) {
+    .canvas {
+		margin: 0 !important;
+	   	-webkit-flex-direction: column !important;
+	   	flex-direction: column !important;
+	   	-webkit-align-items: center;
+   		align-items: center;
+	   	bottom: initial;
+	}
+	#about-container {
+		margin: 2em 0;
+	}
+	#about {
+		width: 80%;
+		margin-bottom: 0;
+	}
+	#stuff {
+		margin: 0;
+		width: 80%;
+	}
+	.postlist {
+		height: 50%;
+		margin: 0;
+		-webkit-align-items: flex-start;
+   		align-items: flex-start;
+	}
+	.item-wrapper, #hiddenitem {
+		width: 80% !important;
+		margin: 1em;
+	}
+	#rarr {
+		display: none;
+	}
+	#larr {
+		display: inline;
+	}
+	.post-wrapper {
+		-webkit-align-items: center;
+	   align-items: center;
+	   -webkit-justify-content: center;
+	   justify-content: center;
+	   -webkit-align-content: center;
+	   align-content: center;
+	   margin: 1em;
+	   margin-bottom: 100%;
+	   overflow-y: scroll;
+	}
+}
 
 
 

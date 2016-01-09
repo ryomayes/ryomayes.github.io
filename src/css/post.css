@@ -41,3 +41,11 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+@media screen and (max-width: 800px) {
+	.blurb-wrapper {
+		width: 100%;
+		margin: 0;
+		left: 0;
+		bottom: 0;
+	}
+}
