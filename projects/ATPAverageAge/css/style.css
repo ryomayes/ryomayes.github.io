@@ -4,7 +4,8 @@ body {
 	bottom: 0;
 	overflow: none;
 	/*font-family: "Georgia", sans-serif;*/
-	font-family: "Times New Roman", sans-serif;
+	font-family: "Noticia Text", serif;
+	
 	display: -webkit-flex;
    	display: flex;
    	-webkit-flex-direction: row;
@@ -16,18 +17,26 @@ body {
 .container {
 	height: 100%;
 	/*display: block;*/
-	width: 50%;
+	width: 48%;
 	/*overflow-y: scroll;*/
 }
 #chart-wrapper {
 	/*order: 2;*/
+	/*font-family: "Helvetica Neue", Helvetica, sans-serif;*/
+	margin: 0 auto;
 	border-right: 2px solid darkred;
+	display: -webkit-flex;
+   	display: flex;
+   	-webkit-flex-direction: column;
+   	flex-direction: column;
+   	-webkit-align-items: center;
+   	align-items: center;
 }
+
 h3, h2 {
-	/*font-family: "Roboto";*/
-	font-weight: normal;
+	font-size: 22px;
+	font-family: "PT Sans", serif;
 	margin-right: 1em;
-	/*font-size: 1.25em;*/
 	margin-bottom: 1em;
 	text-align: center;
 }
@@ -37,14 +46,14 @@ h3, h2 {
 	line-height: 1.5em;
 	margin: 2.25em;
 	padding: 1em;
-	margin-top: 0em;
+	margin-top: 0.5em;
 	padding-top: 0em;
 	overflow-y: scroll;
 	z-index: 4;
 }
 #description p {
 	/*font-family: "Crimson Text", sans-serif;*/
-	font-size: 1.05em;
+	font-size: 14px;
 	margin-bottom: 1em;
 	margin-top: 1em;
 }
@@ -58,7 +67,7 @@ a:hover {
 
 .axis {
 	/*font-family: Helvetica, sans-serif;*/
-	font-size: 12px;
+	font-size: 16px;
 }
 
 .axis path,
@@ -91,7 +100,8 @@ a:hover {
 }
 
 .info {
-	margin: 2em 70px 2em 60px;
+	margin-left: 4em;
+	margin-right: 3em;
 	font-size: 16px;
 }
 #update {
@@ -105,7 +115,7 @@ a:hover {
 	border: 1px solid darkred;
 	outline: 0;
 	display: block;
-	font-size: 12px;
+	font-size: 1em;
 	color: darkred;
 }
 #update:hover{
@@ -113,8 +123,31 @@ a:hover {
 	border: 1px solid black;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1150px) {
+	body {
+		-webkit-flex-direction: column;
+   		flex-direction: column;
+/*   		-webkit-justify-content: space-between;
+   		justify-content: space-between;*/
+   		bottom: auto;
+	}
+	p {
+		font-size: 10px;
+	}
+	h2, h3 {
+		font-size: 16px;
+	}
 	#chart-wrapper {
-		border-right: 2px solid yellow;
+	/*order: 2;*/
+		border-right: none;
+		border-bottom: 2px solid darkred;
+	}
+	.container {
+		width: 100%;
+		display: block;
+	}
+	#description {
+		height: 100%;
+		/*overflow: hidden;*/
 	}
 }

@@ -203,7 +203,7 @@ d3.csv("data/all_player_rankings_ages.csv", function(error, dataset) {
 				
 				toggle = true;
 				topPlayers = "10";
-				d3.select("#update").text("View top 100 average ages");
+				d3.select("#update").text("View Top 100 Average Ages");
 				d3.select("#chart-wrapper span").text("10");
 			} else {
 				playersByYear = topHundred;
@@ -229,7 +229,7 @@ d3.csv("data/all_player_rankings_ages.csv", function(error, dataset) {
 				.attr("class", "line")
 				.attr("d", line);
 
-				d3.select("#update").text("View top 10 average ages");
+				d3.select("#update").text("View Top 10 Average Ages");
 				d3.select("#chart-wrapper span").text("100");
 				topPlayers = "100";
 				toggle = false;

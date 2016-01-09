@@ -64,7 +64,7 @@ a:hover{
 #about-container {
 	height: 95%;
 	position: relative;
-	margin: 4em 5em 5em 6em;
+	margin: 3em 5em 5em 6em;
 }
 #about h1 {
 	font-family: "Source Sans Pro", serif;
@@ -150,7 +150,7 @@ img {
 #larr {
 	display: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px), screen and (max-height: 500px) {
     .canvas {
 		margin: 0 !important;
 	   	-webkit-flex-direction: column !important;
