@@ -52,9 +52,9 @@ Clubs
 
 
 Skills
-Proficient in: Python, Java, HTML/CSS, git
-Experience in: C/C++, Scheme, bash, PowerShell, D3.js, Javascript, Adobe Photoshop and Illustrator
-Exposure to: VBScript, Ruby on Rails, Angular.js, Apache Spark and Hadoop
+Proficient in: Python, Java, HTML/CSS, D3.js, git
+Experience in: C/C++, Scheme, bash, PowerShell, Javascript, MySQL, JQuery, Adobe Photoshop and Illustrator
+Exposure to: VBScript, Ruby on Rails, PHP, Angular.js, Apache Spark and Hadoop
 
 Interests
 Tennis, traveling, food, homebrewing, data visualization, education
