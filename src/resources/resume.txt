@@ -18,6 +18,11 @@ Experience
   + Provided technical support to over 1,000 students and faculty living in campus housing
   + Gave presentations to residential units about web safety and the importance of information security
 
+* The Daily Californian
+ - Projects Developer (February 2016 - Present)
+  + Develop interactive graphics and news applications
+  + Write stories for the the online edition of The Daily Californian, which gets 80,000+ page views per month
+
 * Solano Labs
  - User Experience Consultant (August 2014 - December 2014)
   + Redesigned the new user onboarding process of Solano Labs' developer-targeted SaaS platform
