@@ -7,16 +7,11 @@
 
 # Site settings
 title: Ryo Mayes
-email: ryomayes@berkeley.edu
-aboutme: |
-    Hi there. I'm a student at UC Berkeley studying cognitive science.
-    I'm interested in data science, interactive journalism, user experience methodologies, cognition
-    and educational technology.
+email: ryomayes@gmail.com
+aboutme:
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ryomayes.com" # the base hostname & protocol for your site
-twitter_username: ryomayes
-github_username:  ryomayes
-interest_link: http://thethoughtburger.com/
+username: ryomayes
 # Build settings
 markdown: kramdown

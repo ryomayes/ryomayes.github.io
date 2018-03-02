@@ -1,20 +1,19 @@
 body {
-	background-color: #788996;
-	color: #3B5263;
+	background-color: whitesmoke;
+	color: black;
 }
 
 .blurb-wrapper {
 	display: block;
-	font-family: "Alegreya Sans", sans-serif;
+	font-family: "Lyon Text",Georgia,Times,serif;
+	line-height: 1.66667;
 	position: absolute;
 	margin-top: 1em;
 	margin-bottom: 1em;
 	top: 0;
 	left: 10%;
 	width: 50%;
-	overflow-y: scroll;
-	border: 2px solid #3B5263;
-	background-color: #FFFEFF;
+	background-color: whitesmoke;
 }
 
 .blurb {
@@ -23,21 +22,16 @@ body {
 }
 
 .blurb p {
-	font-size: 1.15em;
+	font-size: 1em;
 }
 .blurb h1 {
 	font-family: "Source Sans Pro", serif;
 	font-weight: 300;
 }
-.blurb img {
-	margin-top: 2em;
-	margin-bottom: 2em;
-	border-radius: 3px;
-	width: 98%;
-	display: block;
-}
+
 a {
-	color: steelblue;
+	font-family: "Source Sans Pro", serif;
+	color: black;
 	text-decoration: none;
 }
 a:hover {
@@ -45,11 +39,11 @@ a:hover {
 }
 
 #backhome {
-	font-size: 1em;
-	text-align: right !important;
+	text-align: right;
 	float: right;
 }
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 1024px) {
 	.blurb-wrapper {
 		width: 100%;
 		margin: 0;
