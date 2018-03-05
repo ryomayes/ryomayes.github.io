@@ -2,14 +2,35 @@
 layout: default
 ---
 
+
+
 <section id="about" class="homediv">
   <div id="me-container">
     <h1 id="me">{{ site.title }}</h1>
     <p class="links-container">
-      <a class="me-links" href="mailto:ryomayes@gmail.com">
-        <i class="fa fa-envelope-square">
-        </i>
-      </a>
+    <!-- Email obfuscator><!-->
+      <script type="text/javascript" language="javascript">
+      // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+      // Random encryption key feature coded by Andrew Moulden
+      // This code is freeware provided these four comment lines remain intact
+      // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+      { coded = "pEV9FEYx@19FUm.eV9"
+        key = "ub48tOefzrHEIBZFmR7TASiJYs3pN2ngdo9DKGChU0Px5jQqL1cVXwWy6kvalM"
+        shift=coded.length
+        link=""
+        for (i=0; i<coded.length; i++) {
+          if (key.indexOf(coded.charAt(i))==-1) {
+            ltr = coded.charAt(i)
+            link += (ltr)
+          }
+          else {     
+            ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+            link += (key.charAt(ltr))
+          }
+        }
+      document.write("<a class='me-links' href='mailto:"+link+"'><i class='fa fa-envelope-square'></i></a>")
+      }
+      </script>
       <a class="me-links" href="/src/resources/ryomayes_cv.pdf">
         <i class="fa fa-file-text-o"></i>
       </a>
