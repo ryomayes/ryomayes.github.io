@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /src/resources/ryomayes_cv.pdf
